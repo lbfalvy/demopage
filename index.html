@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Példa</title>
+</head>
+<body>
+    <header id="titlebar">
+        <img src="logo.svg" class="logo">
+        <span id="title">Névhelye</span>
+        <nav>
+            <span id="menubtn"><img src="./hamburger.svg"></span>
+            <span><a href="#projects">Projektek</a></span>
+            <span><a href="#services">Szolgáltatások</a></span>
+            <span><a href="#">Elérhetőségek</a></span>
+        </nav>
+    </header>
+    <section id="content">
+        <article id="greet">
+            <h1>Rövid, ütős jelmondat.</h1>
+            <hr>
+            <p>
+                Rövid leírás amely a látogatót kevésbé informálni hivatott,
+                mint inkább meggyőzni arról hogy olvasson tovább. Érdemes beszúrni
+                néhány keresőszót is, javítandó a Google pontszámunkat. A szóvirágok
+                és különös, ritkán használt vagy kifejezetten irodalmi szószerkezetek
+                az egész oldalon kerülendők, leszámítva az esetleges több képernyő
+                hosszúságú részletes leírásokat amelyeket úgyis csak a legelszántabbak
+                olvasnak el.
+            </p>
+        </article>
+        <article id="projects">
+            <h1>Ezeket csináltuk eddig.</h1>
+            <section class="horiz">
+                <div>
+                    <img src="pics/asphalt.jpg">
+                    <span>
+                        <h3>Aszfalt</h3>
+                        Nem kerestem sokáig képeket
+                    </span>
+                </div>
+                <div>
+                    <img src="pics/firefighters.jpg">
+                    <span>
+                        <h3>Tűzoltók</h3>
+                        <h4>Mindegyik Pexelsről van</h4>
+                    </span>
+                </div>
+                <div>
+                    <img src="pics/holding_hands.jpg">
+                    <span>
+                        <h3>Segítség</h3>
+                        <h4>Ki fogok fogyni az ötletekből</h4>
+                    </span>
+                </div>
+                <div>
+                    <img src="pics/water.jpg">
+                    <span>
+                        <h3>Víz</h3>
+                        <h4>Ide már nem tudom mit írjak</h4>
+                    </span>
+                </div>
+            </section>
+        </article>
+        <article id="services">
+            <h1>Szolgáltatások</h1>
+            <hr>
+            <div class="multicontainer">
+                <div class="heading">
+                    <h3>Rétes</h3>
+                    <p>
+                        A rétes Magyarországon, Ausztriában és Szerbiában ismert
+                        tésztás étel, mely igen lágyra hagyott gyúrt tésztából készül.
+                        Feltehetőleg a 16. században török hatásra honosodott meg;
+                        elődje a Balkánon ma is létező baklava lehetett. A mai formájú
+                        feltekert, töltött rétes a 18–19. század fordulóján alakult ki
+                        az Osztrák–Magyar Monarchia területén. A 19. század óta
+                        Magyarországon az ünnepi, lakodalmi étkezéseknél hagyományos
+                        édességnek számít. A párizsi Ritz Hotel étlapján a 19. század
+                        elején szerepelt a „Rétes Hongrois”, melynek elkészítéséhez a
+                        réteslisztet Magyarországról rendelték és a cukrászokat Pestre
+                        küldték tanulni.
+                        <i>forrás: wikipédia</i>
+                    </p>
+                </div>
+                <div class="heading">
+                    <h3>Ez a szekció</h3>
+                    <p>
+                        Az oldalnak ezen része sajátos módon kezeli a nagyon hosszú
+                        szövegeket. A tartalmat több szakaszra kell osztani, lehetőleg
+                        úgy hogy a felhasználó ezekből csak néhányat olvasson el.
+                        Emiatt különösen alkalmas erősen tematikus szövegrészek
+                        számára. 
+                    </p>
+                    <p>
+                        Asztali nézetben, vagyis széles képernyőkön a sz9veg
+                        hasábokban jelenik meg. Itt egyébként sem jelent problémát
+                        a sok szöveg, a hasábos megjelenítés jól áttekinthető és
+                        nem kell semmire kattintani.
+                    </p>
+                    <p>
+                        Mobilon viszont a hasábok eltűnnek, helyettük egy sor
+                        lenyíló panel látszik. Ezek egyenként érintésre nyílnak ki,
+                        és amint egy kinyílik az előző bezárul, ezáltal garantálva
+                        hogy az oldal teljes hossza sosem válik kényelmetlenné.
+                    </p>
+                </div>
+                <div class="heading">
+                    <h3>Utolsó szekció</h3>
+                    <p>
+                        A szöveget Cicero De finibus bonorum et malorum („A legfőbb
+                        jóról és rosszról”) című műve néhány bekezdésének
+                        véletlenszerűen összevágott szavaiból alakították ki. Ebből
+                        következően nincs értelmes jelentése, sokszor még maguknak a
+                        szavaknak sem (az elitnek és az ullamcónak például). Az
+                        eredeti bekezdés így kezdődik: Neque porro quisquam est qui
+                        dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                        velit („Senki sem szereti a fájdalmat önmagáért, vagy
+                        törekedik hozzájutni és részesedni benne csak azért, mert az
+                        fájdalom…”) Látható, hogy a lipsum helyenként értelmes
+                        szavakat vág ketté, máskor egyesíti egymás után következő
+                        szavak szótagjait, illetve hosszabb kihagyások után értelmes
+                        mondatrészeket illeszt be.
+                    </p>
+                </div>
+            </div>
+        </article>
+        <article id="contacts">
+            <h1>Elérhetőségek</h1>
+            <hr>
+            <iframe id="bigmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2716.689736868377!2d20.915399315082713!3d47.085547631819885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDfCsDA1JzA4LjAiTiAyMMKwNTUnMDMuMyJF!5e0!3m2!1sen!2shu!4v1590084116310!5m2!1sen!2shu" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <p>
+                Ide általában egy táblázat és egy lábléc szokott kerülni csupa
+                véletlennek tűnő adattal amelyek valójában utalások és viccek, most
+                azonban ehhez fáradt vagyok úgyhogy a közösségi média linkeket és a
+                telefonszámot az olvasó fantáziájára bízom.
+            </p>
+        </article>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
